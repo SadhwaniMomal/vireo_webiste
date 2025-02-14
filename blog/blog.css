@@ -1,0 +1,59 @@
+.blog-navbar-nav .nav-item .nav-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.question a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.question a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* pagination  */
+.pagination a {
+    text-decoration: underline;
+    color: black;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.pagination a.active {
+    text-decoration: none;
+    font-weight: bold;
+}
+.next-page {
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.footer-logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer-logo img {
+    height: 40px;
+}
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    background-color: #333;
+}
