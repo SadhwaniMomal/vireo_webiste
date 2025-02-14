@@ -1,0 +1,56 @@
+/*   <!-- footer Services Marquee --> */
+.footer-services-marquee {
+    position: relative;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    white-space: nowrap;
+  }
+  
+  /* Marquee Track */
+  .services-tracks {
+    display: flex;
+    width: max-content;
+    animation: marquee-horizontal-alt 40s linear infinite;
+  }
+  
+  /* Marquee Animation */
+  @keyframes marquee-horizontal-alt {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Gradient Effect on Marquee */
+  .services-marquee-gradient {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 100%;
+    z-index: 2;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.8) 5%,
+      rgba(247, 247, 247, 0) 30%,
+      rgba(247, 247, 247, 0) 70%,
+      rgba(255, 255, 255, 0.8) 95%
+    );
+    pointer-events: none;
+  }
+  
+  /* Track Container */
+  .services-track {
+    display: flex;
+  }
+  
+  /* Individual Track Item */
+  .services-track-item {
+    padding: 0 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  

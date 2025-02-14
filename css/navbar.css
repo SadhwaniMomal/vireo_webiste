@@ -1,0 +1,31 @@
+
+/* === NAVBAR CSS STYLING HERE ====== */
+#navbar {
+    transition: top 0.3s ease-in-out;
+  }
+  .navbar-custom {
+    background: black;
+    border-radius: 50px;
+    padding: 10px 30px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px -50px 36px -28px inset;
+  }
+  
+  .custom-navbar-toggler {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-custom {
+      background: var(--main-color);
+      border-radius: 40px;
+      padding: 10px 30px;
+      box-shadow: rgba(255, 255, 255, 0.35) 0px -50px 36px -28px inset;
+    }
+  }
+  

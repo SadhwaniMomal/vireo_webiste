@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+  }
+  
+  body {
+    background-color: var(--cream-color-bg);
+  }
+  /* color varaible */
+  
+  :root {
+    --main-color: #121315;
+    --light-color: #f7f7f7;
+    --white-color: #fff;
+    --dark-color: #48494a;
+    --background-color: linear-gradient(to bottom, #111, #222);
+    --hover-color: #d4a606;
+    --box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    --secondary-color: #6c757d;
+    --light-cream: #ebebeb;
+    --cream-color-bg: #f7f7f7;
+  }
+  

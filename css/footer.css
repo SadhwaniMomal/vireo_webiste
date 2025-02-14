@@ -1,0 +1,65 @@
+
+
+/* footer */
+.footer {
+    background-color: var(--main-color);
+    padding: 40px 0;
+  }
+  
+  .blog-card {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .blog-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .blog-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .blog-btn {
+    background: linear-gradient(to right, #6a11cb, #f8b500);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .blog-btn:hover {
+    opacity: 0.8;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    text-decoration: none;
+    transition: background 0.3s;
+    border: 1px solid var(--white-color);
+  }
+  
+  .social-icons a:hover {
+    background:var(--hover-color);
+  }
+  
+  .list-navbar a:hover{
+    color: var(--hover-color);
+  }
